@@ -1,38 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Projekt Next.js z GraphQL, Apollo Client, TailwindCSS i Material-UI
 
-First, run the development server:
+## Wymagania
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Aby uruchomić projekt, upewnij się, że masz zainstalowane:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js
+- npm lub yarn
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Instalacja i uruchomienie
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Sklonuj repozytorium projektu.
+2. Przejdź do katalogu projektu za pomocą terminala/konsoli.
+3. Zainstaluj zależności za pomocą `npm install` lub `yarn install`.
+4. Uruchom projekt lokalnie za pomocą `npm run dev` lub `yarn dev`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Po wykonaniu powyższych kroków, Twoja aplikacja powinna być dostępna pod adresem `http://localhost:3000`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologie użyte w projekcie
 
-## Learn More
+- **Next.js**: Framework React.js zapewniający wsparcie dla SSR (server-side rendering).
+- **GraphQL**: Język zapytań dla Twojego API.
+- **Apollo Client**: Kompletna biblioteka zarządzania stanem dla JavaScript, która integruje się z GraphQL.
+- **TailwindCSS**: Narzędzie do budowy interfejsów użytkownika bez zbędnych stylów.
+- **Material-UI (MUI)**: Popularna biblioteka komponentów React dla Material Design.
 
-To learn more about Next.js, take a look at the following resources:
+## Sprawdzenie GraphQL
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Aby sprawdzić poprawność działania GraphQL, odwiedź `http://localhost:3000/api/graphql`. Pozwoli to na interakcję z Twoim API za pomocą Apollo Server.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Uwagi
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+W tym projekcie nie używamy TypeScript w celu przyspieszenia procesu programowania.
